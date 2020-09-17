@@ -1,0 +1,7 @@
+id: macos/brew-install
+name: Brew install
+author: Aloïs Micard <alois@micard.lu>
+description: Install a package using Brew.
+steps:
+  - name: Install the package
+    exec: brew install {package}

@@ -1,0 +1,9 @@
+id: linux/apt-install
+name: APT install
+author: Aloïs Micard <alois@micard.lu>
+description: Install a package using APT.
+steps:
+  - name: Update package cache
+    exec: apt update
+  - name: Install the package
+    exec: apt install -y {package}

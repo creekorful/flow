@@ -1,0 +1,7 @@
+id: std/git-clone
+name: Git clone
+author: Aloïs Micard <alois@micard.lu>
+description: Clone remote git repository
+steps:
+  - name: Clone the repository
+    exec: git clone {url}

@@ -1,0 +1,7 @@
+id: std/download
+name: Download
+author: Aloïs Micard <alois@micard.lu>
+description: Download a remote file.
+steps:
+  - name: Download the file
+    exec: curl {url} -o {file} -s
